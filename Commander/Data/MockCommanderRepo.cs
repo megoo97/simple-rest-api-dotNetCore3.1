@@ -19,5 +19,25 @@ namespace Commander.Data
          public Command GetCommandById(int id) {
              return new Command{Id=1,HowTo="test",Line="test",Platform="test"};
          }
+
+        void ICommanderRepo.CreateCommand(Command cmd)
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerable<Command> ICommanderRepo.GetAllCommands()
+        {
+            throw new NotImplementedException();
+        }
+
+        Command ICommanderRepo.GetCommandById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        bool ICommanderRepo.SaveChanges()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
