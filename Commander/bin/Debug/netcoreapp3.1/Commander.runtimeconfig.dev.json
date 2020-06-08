@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/megoo/.dotnet/store/|arch|/|tfm|",
+      "/home/megoo/.nuget/packages"
+    ]
+  }
+}
